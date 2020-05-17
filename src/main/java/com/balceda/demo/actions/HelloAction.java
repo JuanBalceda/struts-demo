@@ -1,4 +1,4 @@
-package com.balceda.demo.beans;
+package com.balceda.demo.actions;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -12,7 +12,7 @@ public class HelloAction {
     public String execute(){
         log.info("execute::");
 
-        this.greeting = "Hello Struts2!";
+        this.greeting = "Hello Struts2 with Conventions!";
 
         return "success";
     }

@@ -12,6 +12,6 @@
 </head>
 <body>
 <h1>Welcome</h1>
-<a href="greet">Say Hello</a>
+<a href="hello">Say Hello</a>
 </body>
 </html>
